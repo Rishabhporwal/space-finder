@@ -1,0 +1,8 @@
+-- npm init -y
+-- npm install -D aws-cdk aws-cdk-lib constructs ts-node typescript
+-- cdk.json
+    {
+        app: infrastructure/Launcher.ts
+    }
+-- cdk synth - error regarding tsconfig target
+-- get ts files from other projects for safety
