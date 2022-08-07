@@ -1,7 +1,4 @@
-import { S3 } from "aws-sdk";
 import { APIGatewayProxyEvent } from "aws-lambda";
-
-const s3Client = new S3();
 
 async function handler(event: any, context: any) {
   if (isAuthorized(event)) {
